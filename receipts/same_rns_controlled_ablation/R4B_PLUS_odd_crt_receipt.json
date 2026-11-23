@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-11-17T06:23:17.802225+00:00",
+  "evidence_tier": "full_measured",
+  "measured_resources": {
+    "boundary_loop1_repayment_toffoli": 3227136.0,
+    "clifford_segmented_total": 13736225016.0,
+    "peak_logical_qubits": 2204,
+    "stage_toffoli_breakdown": {
+      "final_phase": 3231360.0,
+      "loop1": 168488332.0,
+      "loop1_final": 52248.0,
+      "prime_kernel": 78427003.0
+    },
+    "toffoli_monolithic_equivalent": 246971807.0,
+    "toffoli_segmented_total": 250198943.0,
+    "tq_monolithic_equivalent": 544325862628.0,
+    "tq_segmented": 551438470372.0
+  },
+  "numerical_crt_verification": {
+    "all_within_strict_bound": true,
+    "max_relative_error": 2.7424681062843944e-06,
+    "shots_checked": 16
+  },
+  "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+  "primary_score": null,
+  "public_input": {
+    "batch_count": 1530,
+    "name": "S4_P20_W8",
+    "path": "data/rns_inputs/S4_P20_W8.json",
+    "prime_count": 19878,
+    "sha256": "9485929523bdf391cce45c68452cb6457791b47211f7461c27aeef5599c6babd",
+    "share": 13
+  },
+  "schema": "bridge-whole-program-arithmetic-v1",
+  "segment_hashes_sha256": "3e1889fd75ab8fbbafcb3d53797d9a26ab2b38486eaf003834a042abd4970d7e",
+  "segmentation": {
+    "batches_per_segment": 2,
+    "dual_backends": [
+      "Gu_strict_stream_check",
+      "kickmix_evalcore"
+    ],
+    "measurement_phase_verification": "symbolic_all_outcomes_per_input",
+    "segment_count": 765,
+    "shots_verified_per_segment": 16
+  },
+  "spec": {
+    "b0": 10,
+    "center_bits": 26,
+    "crt_single_lookup": false,
+    "crt_window": 5,
+    "cutoff": 2,
+    "empty_slot_skip": true,
+    "partial_width": true,
+    "phase_mode": "direct_sqrt",
+    "representation": "shifted_unsigned",
+    "selector_window": 3,
+    "share": 13,
+    "source_window": 3,
+    "stage_lam": 2,
+    "stage_widths": [
+      3,
+      3,
+      2
+    ],
+    "startup_lam": 8,
+    "terminal_crt": true,
+    "terminal_sel_bits": 2,
+    "variant_id": "R4B_plus_L2_L3",
+    "zero_tail_packed_add": true
+  },
+  "status": "VERIFIED",
+  "unified_toffoli_tq": null,
+  "variant": "R4B_PLUS"
+}

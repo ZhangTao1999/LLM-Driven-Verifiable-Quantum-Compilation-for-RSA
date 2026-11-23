@@ -1,0 +1,73 @@
+{
+  "source": "Published Sharma-Lau (2026) v1 resource results, rsabench-v2.2 released records",
+  "paper": "https://arxiv.org/abs/2611.08907",
+  "purpose": "external literature comparison data only; not candidate configuration, expected output or execution dependency",
+  "note": "All 13 scored RSA-2048 configurations hold s=8 fixed (other s values are treated via unscored extrapolation) and omit the 0.99 classical lattice postprocessing factor.",
+  "points": [
+    {
+      "Q": 1432,
+      "T_fact": 6365093872.588819,
+      "id": "sl26_trim_k1_c0_w1-6"
+    },
+    {
+      "Q": 1457,
+      "T_fact": 6352988077.163631,
+      "id": "sl26_shared_ckpt_k1_c1"
+    },
+    {
+      "Q": 1461,
+      "T_fact": 5079970304.469848,
+      "id": "sl26_trim_k2_c0_w1-7"
+    },
+    {
+      "Q": 1516,
+      "T_fact": 4660798533.372258,
+      "id": "sl26_trim_k3_c0_w1-8"
+    },
+    {
+      "Q": 1537,
+      "T_fact": 4642757075.910701,
+      "id": "sl26_shared_lookup_k3_w1-7"
+    },
+    {
+      "Q": 1565,
+      "T_fact": 4402911412.815241,
+      "id": "sl26_shared_ckpt_k3_c3"
+    },
+    {
+      "Q": 1574,
+      "T_fact": 4188969434.3130307,
+      "id": "sl26_trim_k4_c0_w1-8"
+    },
+    {
+      "Q": 1583,
+      "T_fact": 4009666400.2195945,
+      "id": "sl26_lazy_k2_w1-7"
+    },
+    {
+      "Q": 1600,
+      "T_fact": 3829890200.18919,
+      "id": "sl26_trim_k3_c5_w1-6"
+    },
+    {
+      "Q": 1641,
+      "T_fact": 3251525700.7918077,
+      "id": "sl26_lazy_k4_w1-8"
+    },
+    {
+      "Q": 1670,
+      "T_fact": 2971690029.3021517,
+      "id": "sl26_lazy_k5_w1-8"
+    },
+    {
+      "Q": 1699,
+      "T_fact": 2781338505.244798,
+      "id": "sl26_lazy_k6_w1-8"
+    },
+    {
+      "Q": 1806,
+      "T_fact": 2549220105.796176,
+      "id": "sl26_lazy_k8_w1-8"
+    }
+  ]
+}

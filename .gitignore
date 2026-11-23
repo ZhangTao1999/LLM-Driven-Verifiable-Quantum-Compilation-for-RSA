@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.exe
+*.ops
+output_figures/
+.DS_Store
+Thumbs.db

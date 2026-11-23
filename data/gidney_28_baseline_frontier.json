@@ -1,0 +1,3746 @@
+{
+  "schema": "gidney-2025-baseline-sweep-v1",
+  "provenance": "Evaluated in strict clean-ancilla simulator against Gidney (2025) arXiv:2505.15917v1 (Zenodo 15347487): 24 circuits across s in {3..14} x ell in {20,21} at w=6, plus (s=14, ell=19, w=7), (s=8, ell=21, w in {7,8}), and 64-bit-prep (s=2, ell=21, w=6) (28 admitted circuits; 32-bit-prep C_S2_L21_W6 failed and is logged in accounting_sensitivity.json).",
+  "gidney_paper_config_simulated": {
+    "id": "C_S8_L21_W6",
+    "s": 8,
+    "ell": 21,
+    "w": 6,
+    "Q_peak": 1435,
+    "T_fact": 6387890835.0
+  },
+  "gidney_paper_config_analytic": {
+    "s": 8,
+    "ell": 21,
+    "w": 6,
+    "Q_peak": 1399,
+    "T_fact": 6497400000.0,
+    "note": "Does not count 36 temporary clean ancillas"
+  },
+  "canonical_reference_28": [
+    {
+      "point": "C_S14_L21_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1327,
+          "T_shot": 611464298.2857143,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 908042,
+              "T_shot": 610232827.8571428,
+              "T_shot_fraction": [
+                "4271629795",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 286478067.85714287,
+                "loop1": 323736336.0,
+                "loop1_final": 16856.0,
+                "final_phase": 1568.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 911563,
+              "T_shot": 612647982.3571428,
+              "T_shot_fraction": [
+                "8577071753",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 288893222.35714287,
+                "loop1": 323736336.0,
+                "loop1_final": 16856.0,
+                "final_phase": 1568.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 909907,
+              "T_shot": 611512084.6428572,
+              "T_shot_fraction": [
+                "8561169185",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 287757324.64285713,
+                "loop1": 323736336.0,
+                "loop1_final": 16856.0,
+                "final_phase": 1568.0
+              }
+            }
+          ],
+          "T_fact": 9284355079.056097,
+          "QT": 12320339189907.441,
+          "T_fact_seed_sd": 18346382.386275332
+        },
+        "constructive_phase": {
+          "Q": 1327,
+          "T_shot": 611464298.2857143,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 908042,
+              "T_shot": 610232827.8571428,
+              "T_shot_fraction": [
+                "4271629795",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 286478067.85714287,
+                "loop1": 323736336.0,
+                "loop1_final": 16856.0,
+                "final_phase": 1568.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 911563,
+              "T_shot": 612647982.3571428,
+              "T_shot_fraction": [
+                "8577071753",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 288893222.35714287,
+                "loop1": 323736336.0,
+                "loop1_final": 16856.0,
+                "final_phase": 1568.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 909907,
+              "T_shot": 611512084.6428572,
+              "T_shot_fraction": [
+                "8561169185",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 287757324.64285713,
+                "loop1": 323736336.0,
+                "loop1_final": 16856.0,
+                "final_phase": 1568.0
+              }
+            }
+          ],
+          "T_fact": 9284355079.056097,
+          "QT": 12320339189907.441,
+          "T_fact_seed_sd": 18346382.386275332
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S14_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "7f246bf3ff206edbf681f67ce8b34d4ae103881b9b83cb68457d164d00011289"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S14_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "7f246bf3ff206edbf681f67ce8b34d4ae103881b9b83cb68457d164d00011289"
+      },
+      "s": 14,
+      "spec": null
+    },
+    {
+      "point": "C_S14_L20_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1325,
+          "T_shot": 634087303.8095238,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 894042,
+              "T_shot": 634608029.1428572,
+              "T_shot_fraction": [
+                "4442256204",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 296591721.14285713,
+                "loop1": 337998080.0,
+                "loop1_final": 16660.0,
+                "final_phase": 1568.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 893178,
+              "T_shot": 633981999.4285715,
+              "T_shot_fraction": [
+                "4437873996",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 295965691.4285714,
+                "loop1": 337998080.0,
+                "loop1_final": 16660.0,
+                "final_phase": 1568.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 892750,
+              "T_shot": 633671882.8571428,
+              "T_shot_fraction": [
+                "4435703180",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 295655574.85714287,
+                "loop1": 337998080.0,
+                "loop1_final": 16660.0,
+                "final_phase": 1568.0
+              }
+            }
+          ],
+          "T_fact": 9621380819.802261,
+          "QT": 12748329586237.996,
+          "T_fact_seed_sd": 7235897.190677515
+        },
+        "constructive_phase": {
+          "Q": 1325,
+          "T_shot": 634087303.8095238,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 894042,
+              "T_shot": 634608029.1428572,
+              "T_shot_fraction": [
+                "4442256204",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 296591721.14285713,
+                "loop1": 337998080.0,
+                "loop1_final": 16660.0,
+                "final_phase": 1568.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 893178,
+              "T_shot": 633981999.4285715,
+              "T_shot_fraction": [
+                "4437873996",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 295965691.4285714,
+                "loop1": 337998080.0,
+                "loop1_final": 16660.0,
+                "final_phase": 1568.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 892750,
+              "T_shot": 633671882.8571428,
+              "T_shot_fraction": [
+                "4435703180",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 295655574.85714287,
+                "loop1": 337998080.0,
+                "loop1_final": 16660.0,
+                "final_phase": 1568.0
+              }
+            }
+          ],
+          "T_fact": 9621380819.802261,
+          "QT": 12748329586237.996,
+          "T_fact_seed_sd": 7235897.190677515
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S14_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "5f4b87b0e225875f4ac464d056d12dab00df1a98c881847bb1ed1f158b7009f0"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S14_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "5f4b87b0e225875f4ac464d056d12dab00df1a98c881847bb1ed1f158b7009f0"
+      },
+      "s": 14,
+      "spec": null
+    },
+    {
+      "point": "C_S14_L19_W7",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1323,
+          "T_shot": 722395175.4285713,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1118743,
+              "T_shot": 722438168.2857143,
+              "T_shot_fraction": [
+                "5057067178",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 265041704.2857143,
+                "loop1": 457369920.0,
+                "loop1_final": 24696.0,
+                "final_phase": 1848.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1117897,
+              "T_shot": 721878599.7142857,
+              "T_shot_fraction": [
+                "5053150198",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 264482135.7142857,
+                "loop1": 457369920.0,
+                "loop1_final": 24696.0,
+                "final_phase": 1848.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1119394,
+              "T_shot": 722868758.2857143,
+              "T_shot_fraction": [
+                "5060081308",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 265472294.2857143,
+                "loop1": 457369920.0,
+                "loop1_final": 24696.0,
+                "final_phase": 1848.0
+              }
+            }
+          ],
+          "T_fact": 10957823933.9161,
+          "QT": 14497201064571.0,
+          "T_fact_seed_sd": 7530935.834037529
+        },
+        "constructive_phase": {
+          "Q": 1323,
+          "T_shot": 722395847.4285713,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1119415,
+              "T_shot": 722438840.2857143,
+              "T_shot_fraction": [
+                "5057071882",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 265041704.2857143,
+                "loop1": 457369920.0,
+                "loop1_final": 24696.0,
+                "final_phase": 2520.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1118569,
+              "T_shot": 721879271.7142857,
+              "T_shot_fraction": [
+                "5053154902",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 264482135.7142857,
+                "loop1": 457369920.0,
+                "loop1_final": 24696.0,
+                "final_phase": 2520.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1120066,
+              "T_shot": 722869430.2857143,
+              "T_shot_fraction": [
+                "5060086012",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 265472294.2857143,
+                "loop1": 457369920.0,
+                "loop1_final": 24696.0,
+                "final_phase": 2520.0
+              }
+            }
+          ],
+          "T_fact": 10957834127.308767,
+          "QT": 14497214550429.5,
+          "T_fact_seed_sd": 7530935.834037612
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S14_L19_W7_rsa2048_b28.json.gz",
+        "sha256": "1bfd2eb27eac2eac061e0dce39073f8a5e5c35691d7f7c44729d7ebdc20ab96d"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S14_L19_W7_rsa2048_b28.json.gz",
+        "sha256": "1bfd2eb27eac2eac061e0dce39073f8a5e5c35691d7f7c44729d7ebdc20ab96d"
+      },
+      "s": 14,
+      "spec": null
+    },
+    {
+      "point": "C_S13_L21_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1337,
+          "T_shot": 616164252.2857143,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 912677,
+              "T_shot": 616509214.25,
+              "T_shot_fraction": [
+                "2466036857",
+                "4"
+              ],
+              "stage_projection": {
+                "prime_kernel": 289425386.25,
+                "loop1": 327065310.0,
+                "loop1_final": 16942.0,
+                "final_phase": 1576.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 910424,
+              "T_shot": 614955851.2142857,
+              "T_shot_fraction": [
+                "8609381917",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 287872023.21428573,
+                "loop1": 327065310.0,
+                "loop1_final": 16942.0,
+                "final_phase": 1576.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 913429,
+              "T_shot": 617027691.3928572,
+              "T_shot_fraction": [
+                "17276775359",
+                "28"
+              ],
+              "stage_projection": {
+                "prime_kernel": 289943863.39285713,
+                "loop1": 327065310.0,
+                "loop1_final": 16942.0,
+                "final_phase": 1576.0
+              }
+            }
+          ],
+          "T_fact": 8732199311.924765,
+          "QT": 11674950480043.41,
+          "T_fact_seed_sd": 15279217.469839323
+        },
+        "constructive_phase": {
+          "Q": 1337,
+          "T_shot": 616164252.2857143,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 912677,
+              "T_shot": 616509214.25,
+              "T_shot_fraction": [
+                "2466036857",
+                "4"
+              ],
+              "stage_projection": {
+                "prime_kernel": 289425386.25,
+                "loop1": 327065310.0,
+                "loop1_final": 16942.0,
+                "final_phase": 1576.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 910424,
+              "T_shot": 614955851.2142857,
+              "T_shot_fraction": [
+                "8609381917",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 287872023.21428573,
+                "loop1": 327065310.0,
+                "loop1_final": 16942.0,
+                "final_phase": 1576.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 913429,
+              "T_shot": 617027691.3928572,
+              "T_shot_fraction": [
+                "17276775359",
+                "28"
+              ],
+              "stage_projection": {
+                "prime_kernel": 289943863.39285713,
+                "loop1": 327065310.0,
+                "loop1_final": 16942.0,
+                "final_phase": 1576.0
+              }
+            }
+          ],
+          "T_fact": 8732199311.924765,
+          "QT": 11674950480043.41,
+          "T_fact_seed_sd": 15279217.469839323
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S13_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "9bb8676d36406124605c0f2cf14f9f734cb9b8bde7a92b60e14266c78e253ac8"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S13_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "9bb8676d36406124605c0f2cf14f9f734cb9b8bde7a92b60e14266c78e253ac8"
+      },
+      "s": 13,
+      "spec": null
+    },
+    {
+      "point": "C_S13_L20_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1335,
+          "T_shot": 637092075.8571429,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 895643,
+              "T_shot": 638959400.4285715,
+              "T_shot_fraction": [
+                "4472715803",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 297477039.4285714,
+                "loop1": 341464040.0,
+                "loop1_final": 16745.0,
+                "final_phase": 1576.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 892657,
+              "T_shot": 636784739.2857143,
+              "T_shot_fraction": [
+                "4457493175",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 295302378.28571427,
+                "loop1": 341464040.0,
+                "loop1_final": 16745.0,
+                "final_phase": 1576.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 890937,
+              "T_shot": 635532087.8571428,
+              "T_shot_fraction": [
+                "4448724615",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 294049726.85714287,
+                "loop1": 341464040.0,
+                "loop1_final": 16745.0,
+                "final_phase": 1576.0
+              }
+            }
+          ],
+          "T_fact": 9022678799.236237,
+          "QT": 12045276196980.375,
+          "T_fact_seed_sd": 24560273.647934414
+        },
+        "constructive_phase": {
+          "Q": 1335,
+          "T_shot": 637092075.8571428,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 895643,
+              "T_shot": 638959400.4285715,
+              "T_shot_fraction": [
+                "4472715803",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 297477039.4285714,
+                "loop1": 341464040.0,
+                "loop1_final": 16745.0,
+                "final_phase": 1576.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 892657,
+              "T_shot": 636784739.2857143,
+              "T_shot_fraction": [
+                "4457493175",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 295302378.28571427,
+                "loop1": 341464040.0,
+                "loop1_final": 16745.0,
+                "final_phase": 1576.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 890937,
+              "T_shot": 635532087.8571428,
+              "T_shot_fraction": [
+                "4448724615",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 294049726.85714287,
+                "loop1": 341464040.0,
+                "loop1_final": 16745.0,
+                "final_phase": 1576.0
+              }
+            }
+          ],
+          "T_fact": 9022678799.236235,
+          "QT": 12045276196980.373,
+          "T_fact_seed_sd": 24560273.647934414
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S13_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "47454a4c639075ee3c5e33037b6cc9a5b57d92cb829f35e3127cfb6a2ef18240"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S13_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "47454a4c639075ee3c5e33037b6cc9a5b57d92cb829f35e3127cfb6a2ef18240"
+      },
+      "s": 13,
+      "spec": null
+    },
+    {
+      "point": "C_S12_L21_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1351,
+          "T_shot": 630835466.6666666,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 921111,
+              "T_shot": 631636500.0,
+              "T_shot_fraction": [
+                "631636500",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 294497700.0,
+                "loop1": 337120000.0,
+                "loop1_final": 17200.0,
+                "final_phase": 1600.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 918510,
+              "T_shot": 629815800.0,
+              "T_shot_fraction": [
+                "629815800",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 292677000.0,
+                "loop1": 337120000.0,
+                "loop1_final": 17200.0,
+                "final_phase": 1600.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 920279,
+              "T_shot": 631054100.0,
+              "T_shot_fraction": [
+                "631054100",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 293915300.0,
+                "loop1": 337120000.0,
+                "loop1_final": 17200.0,
+                "final_phase": 1600.0
+              }
+            }
+          ],
+          "T_fact": 8302092140.605751,
+          "QT": 11216126481958.37,
+          "T_fact_seed_sd": 12237027.3011989
+        },
+        "constructive_phase": {
+          "Q": 1351,
+          "T_shot": 630835466.6666666,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 921111,
+              "T_shot": 631636500.0,
+              "T_shot_fraction": [
+                "631636500",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 294497700.0,
+                "loop1": 337120000.0,
+                "loop1_final": 17200.0,
+                "final_phase": 1600.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 918510,
+              "T_shot": 629815800.0,
+              "T_shot_fraction": [
+                "629815800",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 292677000.0,
+                "loop1": 337120000.0,
+                "loop1_final": 17200.0,
+                "final_phase": 1600.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 920279,
+              "T_shot": 631054100.0,
+              "T_shot_fraction": [
+                "631054100",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 293915300.0,
+                "loop1": 337120000.0,
+                "loop1_final": 17200.0,
+                "final_phase": 1600.0
+              }
+            }
+          ],
+          "T_fact": 8302092140.605751,
+          "QT": 11216126481958.37,
+          "T_fact_seed_sd": 12237027.3011989
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S12_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "7ba4db7d28c275037f762ad872b797a9f899f04a749f7b4f6a97d5d97faa14bb"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S12_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "7ba4db7d28c275037f762ad872b797a9f899f04a749f7b4f6a97d5d97faa14bb"
+      },
+      "s": 12,
+      "spec": null
+    },
+    {
+      "point": "C_S12_L20_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1349,
+          "T_shot": 652960105.4047619,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 901028,
+              "T_shot": 652605621.2857143,
+              "T_shot_fraction": [
+                "4568239349",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 300568021.28571427,
+                "loop1": 352019000.0,
+                "loop1_final": 17000.0,
+                "final_phase": 1600.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 900030,
+              "T_shot": 651867564.6428572,
+              "T_shot_fraction": [
+                "9126145905",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 299829964.64285713,
+                "loop1": 352019000.0,
+                "loop1_final": 17000.0,
+                "final_phase": 1600.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 903464,
+              "T_shot": 654407130.2857143,
+              "T_shot_fraction": [
+                "4580849912",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 302369530.28571427,
+                "loop1": 352019000.0,
+                "loop1_final": 17000.0,
+                "final_phase": 1600.0
+              }
+            }
+          ],
+          "T_fact": 8587366615.49854,
+          "QT": 11584357564307.531,
+          "T_fact_seed_sd": 17180598.672435004
+        },
+        "constructive_phase": {
+          "Q": 1349,
+          "T_shot": 652960105.4047619,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 901028,
+              "T_shot": 652605621.2857143,
+              "T_shot_fraction": [
+                "4568239349",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 300568021.28571427,
+                "loop1": 352019000.0,
+                "loop1_final": 17000.0,
+                "final_phase": 1600.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 900030,
+              "T_shot": 651867564.6428572,
+              "T_shot_fraction": [
+                "9126145905",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 299829964.64285713,
+                "loop1": 352019000.0,
+                "loop1_final": 17000.0,
+                "final_phase": 1600.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 903464,
+              "T_shot": 654407130.2857143,
+              "T_shot_fraction": [
+                "4580849912",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 302369530.28571427,
+                "loop1": 352019000.0,
+                "loop1_final": 17000.0,
+                "final_phase": 1600.0
+              }
+            }
+          ],
+          "T_fact": 8587366615.49854,
+          "QT": 11584357564307.531,
+          "T_fact_seed_sd": 17180598.672435004
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S12_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "5391e91596185473c9d86df53e9f125c0b6e46424c2ceebe47fc5a439ffd939c"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S12_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "5391e91596185473c9d86df53e9f125c0b6e46424c2ceebe47fc5a439ffd939c"
+      },
+      "s": 12,
+      "spec": null
+    },
+    {
+      "point": "C_S11_L21_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1367,
+          "T_shot": 640907033.3214287,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 925939,
+              "T_shot": 641265736.1071428,
+              "T_shot_fraction": [
+                "17955440611",
+                "28"
+              ],
+              "stage_projection": {
+                "prime_kernel": 297333264.10714287,
+                "loop1": 343913484.0,
+                "loop1_final": 17372.0,
+                "final_phase": 1616.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 926631,
+              "T_shot": 641755004.8214285,
+              "T_shot_fraction": [
+                "17969140135",
+                "28"
+              ],
+              "stage_projection": {
+                "prime_kernel": 297822532.8214286,
+                "loop1": 343913484.0,
+                "loop1_final": 17372.0,
+                "final_phase": 1616.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 923725,
+              "T_shot": 639700359.0357143,
+              "T_shot_fraction": [
+                "17911610053",
+                "28"
+              ],
+              "stage_projection": {
+                "prime_kernel": 295767887.03571427,
+                "loop1": 343913484.0,
+                "loop1_final": 17372.0,
+                "final_phase": 1616.0
+              }
+            }
+          ],
+          "T_fact": 7786167423.774866,
+          "QT": 10643690868300.242,
+          "T_fact_seed_sd": 13038714.84380337
+        },
+        "constructive_phase": {
+          "Q": 1367,
+          "T_shot": 640907033.3214285,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 925939,
+              "T_shot": 641265736.1071428,
+              "T_shot_fraction": [
+                "17955440611",
+                "28"
+              ],
+              "stage_projection": {
+                "prime_kernel": 297333264.10714287,
+                "loop1": 343913484.0,
+                "loop1_final": 17372.0,
+                "final_phase": 1616.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 926631,
+              "T_shot": 641755004.8214285,
+              "T_shot_fraction": [
+                "17969140135",
+                "28"
+              ],
+              "stage_projection": {
+                "prime_kernel": 297822532.8214286,
+                "loop1": 343913484.0,
+                "loop1_final": 17372.0,
+                "final_phase": 1616.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 923725,
+              "T_shot": 639700359.0357143,
+              "T_shot_fraction": [
+                "17911610053",
+                "28"
+              ],
+              "stage_projection": {
+                "prime_kernel": 295767887.03571427,
+                "loop1": 343913484.0,
+                "loop1_final": 17372.0,
+                "final_phase": 1616.0
+              }
+            }
+          ],
+          "T_fact": 7786167423.774864,
+          "QT": 10643690868300.24,
+          "T_fact_seed_sd": 13038714.84380337
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S11_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "f76d2b6966cce54c737805ec89c07f91cd947d97d4bf32467ab5ef834af48ad6"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S11_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "f76d2b6966cce54c737805ec89c07f91cd947d97d4bf32467ab5ef834af48ad6"
+      },
+      "s": 11,
+      "spec": null
+    },
+    {
+      "point": "C_S11_L20_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1365,
+          "T_shot": 664382547.9047619,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 906930,
+              "T_shot": 663494073.4285715,
+              "T_shot_fraction": [
+                "4644458514",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 304330397.4285714,
+                "loop1": 359144890.0,
+                "loop1_final": 17170.0,
+                "final_phase": 1616.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 906680,
+              "T_shot": 663307314.5,
+              "T_shot_fraction": [
+                "1326614629",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 304143638.5,
+                "loop1": 359144890.0,
+                "loop1_final": 17170.0,
+                "final_phase": 1616.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 910748,
+              "T_shot": 666346255.7857143,
+              "T_shot_fraction": [
+                "9328847581",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 307182579.78571427,
+                "loop1": 359144890.0,
+                "loop1_final": 17170.0,
+                "final_phase": 1616.0
+              }
+            }
+          ],
+          "T_fact": 8065772435.950981,
+          "QT": 11009779375073.09,
+          "T_fact_seed_sd": 20677069.06548026
+        },
+        "constructive_phase": {
+          "Q": 1365,
+          "T_shot": 664382547.9047619,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 906930,
+              "T_shot": 663494073.4285715,
+              "T_shot_fraction": [
+                "4644458514",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 304330397.4285714,
+                "loop1": 359144890.0,
+                "loop1_final": 17170.0,
+                "final_phase": 1616.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 906680,
+              "T_shot": 663307314.5,
+              "T_shot_fraction": [
+                "1326614629",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 304143638.5,
+                "loop1": 359144890.0,
+                "loop1_final": 17170.0,
+                "final_phase": 1616.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 910748,
+              "T_shot": 666346255.7857143,
+              "T_shot_fraction": [
+                "9328847581",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 307182579.78571427,
+                "loop1": 359144890.0,
+                "loop1_final": 17170.0,
+                "final_phase": 1616.0
+              }
+            }
+          ],
+          "T_fact": 8065772435.950981,
+          "QT": 11009779375073.09,
+          "T_fact_seed_sd": 20677069.06548026
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S11_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "cf1add0c9edd849cda5698225aae1b1ff29fa3a2a635e820b68da79720a39fac"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S11_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "cf1add0c9edd849cda5698225aae1b1ff29fa3a2a635e820b68da79720a39fac"
+      },
+      "s": 11,
+      "spec": null
+    },
+    {
+      "point": "C_S10_L21_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1385,
+          "T_shot": 656034670.1904763,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 934700,
+              "T_shot": 656938376.7857143,
+              "T_shot_fraction": [
+                "9197137275",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 302679516.78571427,
+                "loop1": 354239590.0,
+                "loop1_final": 17630.0,
+                "final_phase": 1640.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 933870,
+              "T_shot": 656342762.8571428,
+              "T_shot_fraction": [
+                "4594399340",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 302083902.85714287,
+                "loop1": 354239590.0,
+                "loop1_final": 17630.0,
+                "final_phase": 1640.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 931752,
+              "T_shot": 654822870.9285715,
+              "T_shot_fraction": [
+                "9167520193",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 300564010.9285714,
+                "loop1": 354239590.0,
+                "loop1_final": 17630.0,
+                "final_phase": 1640.0
+              }
+            }
+          ],
+          "T_fact": 7306275117.847359,
+          "QT": 10119191038218.592,
+          "T_fact_seed_sd": 12149224.680659214
+        },
+        "constructive_phase": {
+          "Q": 1385,
+          "T_shot": 656034670.1904762,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 934700,
+              "T_shot": 656938376.7857143,
+              "T_shot_fraction": [
+                "9197137275",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 302679516.78571427,
+                "loop1": 354239590.0,
+                "loop1_final": 17630.0,
+                "final_phase": 1640.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 933870,
+              "T_shot": 656342762.8571428,
+              "T_shot_fraction": [
+                "4594399340",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 302083902.85714287,
+                "loop1": 354239590.0,
+                "loop1_final": 17630.0,
+                "final_phase": 1640.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 931752,
+              "T_shot": 654822870.9285715,
+              "T_shot_fraction": [
+                "9167520193",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 300564010.9285714,
+                "loop1": 354239590.0,
+                "loop1_final": 17630.0,
+                "final_phase": 1640.0
+              }
+            }
+          ],
+          "T_fact": 7306275117.847358,
+          "QT": 10119191038218.59,
+          "T_fact_seed_sd": 12149224.680659214
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S10_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "a5231577b0c9c9fa04dd0a2036fdfc613150decedd74d20839f2858aa3dc84c0"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S10_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "a5231577b0c9c9fa04dd0a2036fdfc613150decedd74d20839f2858aa3dc84c0"
+      },
+      "s": 10,
+      "spec": null
+    },
+    {
+      "point": "C_S10_L20_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1383,
+          "T_shot": 679564737.0,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 914511,
+              "T_shot": 678990994.5,
+              "T_shot_fraction": [
+                "1357981989",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 309021754.5,
+                "loop1": 369950175.0,
+                "loop1_final": 17425.0,
+                "final_phase": 1640.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 917041,
+              "T_shot": 680909367.0,
+              "T_shot_fraction": [
+                "680909367",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 310940127.0,
+                "loop1": 369950175.0,
+                "loop1_final": 17425.0,
+                "final_phase": 1640.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 914251,
+              "T_shot": 678793849.5,
+              "T_shot_fraction": [
+                "1357587699",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 308824609.5,
+                "loop1": 369950175.0,
+                "loop1_final": 17425.0,
+                "final_phase": 1640.0
+              }
+            }
+          ],
+          "T_fact": 7563010327.300477,
+          "QT": 10459643282656.56,
+          "T_fact_seed_sd": 13006118.321497891
+        },
+        "constructive_phase": {
+          "Q": 1383,
+          "T_shot": 679564737.0,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 914511,
+              "T_shot": 678990994.5,
+              "T_shot_fraction": [
+                "1357981989",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 309021754.5,
+                "loop1": 369950175.0,
+                "loop1_final": 17425.0,
+                "final_phase": 1640.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 917041,
+              "T_shot": 680909367.0,
+              "T_shot_fraction": [
+                "680909367",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 310940127.0,
+                "loop1": 369950175.0,
+                "loop1_final": 17425.0,
+                "final_phase": 1640.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 914251,
+              "T_shot": 678793849.5,
+              "T_shot_fraction": [
+                "1357587699",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 308824609.5,
+                "loop1": 369950175.0,
+                "loop1_final": 17425.0,
+                "final_phase": 1640.0
+              }
+            }
+          ],
+          "T_fact": 7563010327.300477,
+          "QT": 10459643282656.56,
+          "T_fact_seed_sd": 13006118.321497891
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S10_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "fdc9d3dac60cd517c9b29be8dca5a5e107388bca63e36167228fc1a51b0d7e5c"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S10_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "fdc9d3dac60cd517c9b29be8dca5a5e107388bca63e36167228fc1a51b0d7e5c"
+      },
+      "s": 10,
+      "spec": null
+    },
+    {
+      "point": "C_S9_L21_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1407,
+          "T_shot": 675866508.4642857,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 942147,
+              "T_shot": 674993859.8214285,
+              "T_shot_fraction": [
+                "18899828075",
+                "28"
+              ],
+              "stage_projection": {
+                "prime_kernel": 306740875.8214286,
+                "loop1": 368233338.0,
+                "loop1_final": 17974.0,
+                "final_phase": 1672.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 943071,
+              "T_shot": 675669930.8214285,
+              "T_shot_fraction": [
+                "18918758063",
+                "28"
+              ],
+              "stage_projection": {
+                "prime_kernel": 307416946.8214286,
+                "loop1": 368233338.0,
+                "loop1_final": 17974.0,
+                "final_phase": 1672.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 944801,
+              "T_shot": 676935734.75,
+              "T_shot_fraction": [
+                "2707742939",
+                "4"
+              ],
+              "stage_projection": {
+                "prime_kernel": 308682750.75,
+                "loop1": 368233338.0,
+                "loop1_final": 17974.0,
+                "final_phase": 1672.0
+              }
+            }
+          ],
+          "T_fact": 6843467287.403038,
+          "QT": 9628758473376.074,
+          "T_fact_seed_sd": 9981176.527035322
+        },
+        "constructive_phase": {
+          "Q": 1407,
+          "T_shot": 675866508.4642857,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 942147,
+              "T_shot": 674993859.8214285,
+              "T_shot_fraction": [
+                "18899828075",
+                "28"
+              ],
+              "stage_projection": {
+                "prime_kernel": 306740875.8214286,
+                "loop1": 368233338.0,
+                "loop1_final": 17974.0,
+                "final_phase": 1672.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 943071,
+              "T_shot": 675669930.8214285,
+              "T_shot_fraction": [
+                "18918758063",
+                "28"
+              ],
+              "stage_projection": {
+                "prime_kernel": 307416946.8214286,
+                "loop1": 368233338.0,
+                "loop1_final": 17974.0,
+                "final_phase": 1672.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 944801,
+              "T_shot": 676935734.75,
+              "T_shot_fraction": [
+                "2707742939",
+                "4"
+              ],
+              "stage_projection": {
+                "prime_kernel": 308682750.75,
+                "loop1": 368233338.0,
+                "loop1_final": 17974.0,
+                "final_phase": 1672.0
+              }
+            }
+          ],
+          "T_fact": 6843467287.403038,
+          "QT": 9628758473376.074,
+          "T_fact_seed_sd": 9981176.527035322
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S9_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "6e92c9edd87ca0d96030a3f7504f589b776a0c9bfa65ee3a5470a17125c9ce7b"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S9_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "6e92c9edd87ca0d96030a3f7504f589b776a0c9bfa65ee3a5470a17125c9ce7b"
+      },
+      "s": 9,
+      "spec": null
+    },
+    {
+      "point": "C_S9_L20_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1405,
+          "T_shot": 700049363.5,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 923925,
+              "T_shot": 699414783.0,
+              "T_shot_fraction": [
+                "699414783",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 314765331.0,
+                "loop1": 384630015.0,
+                "loop1_final": 17765.0,
+                "final_phase": 1672.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 924505,
+              "T_shot": 699863268.0,
+              "T_shot_fraction": [
+                "699863268",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 315213816.0,
+                "loop1": 384630015.0,
+                "loop1_final": 17765.0,
+                "final_phase": 1672.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 925807,
+              "T_shot": 700870039.5,
+              "T_shot_fraction": [
+                "1401740079",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 316220587.5,
+                "loop1": 384630015.0,
+                "loop1_final": 17765.0,
+                "final_phase": 1672.0
+              }
+            }
+          ],
+          "T_fact": 7083254382.693027,
+          "QT": 9951972407683.703,
+          "T_fact_seed_sd": 7540733.127671794
+        },
+        "constructive_phase": {
+          "Q": 1405,
+          "T_shot": 700049363.5,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 923925,
+              "T_shot": 699414783.0,
+              "T_shot_fraction": [
+                "699414783",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 314765331.0,
+                "loop1": 384630015.0,
+                "loop1_final": 17765.0,
+                "final_phase": 1672.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 924505,
+              "T_shot": 699863268.0,
+              "T_shot_fraction": [
+                "699863268",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 315213816.0,
+                "loop1": 384630015.0,
+                "loop1_final": 17765.0,
+                "final_phase": 1672.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 925807,
+              "T_shot": 700870039.5,
+              "T_shot_fraction": [
+                "1401740079",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 316220587.5,
+                "loop1": 384630015.0,
+                "loop1_final": 17765.0,
+                "final_phase": 1672.0
+              }
+            }
+          ],
+          "T_fact": 7083254382.693027,
+          "QT": 9951972407683.703,
+          "T_fact_seed_sd": 7540733.127671794
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S9_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "4cb88baba7bc69db0d174559ae5c25327fcf6ed730794286f8b698b122e4f1f7"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S9_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "4cb88baba7bc69db0d174559ae5c25327fcf6ed730794286f8b698b122e4f1f7"
+      },
+      "s": 9,
+      "spec": null
+    },
+    {
+      "point": "C_S8_L21_W8",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1435,
+          "T_shot": 926497219.5,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1700503,
+              "T_shot": 925338308.5,
+              "T_shot_fraction": [
+                "1850676617",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 233481028.5,
+                "loop1": 691810560.0,
+                "loop1_final": 44160.0,
+                "final_phase": 2560.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1702850,
+              "T_shot": 926651455.0,
+              "T_shot_fraction": [
+                "926651455",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 234794175.0,
+                "loop1": 691810560.0,
+                "loop1_final": 44160.0,
+                "final_phase": 2560.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1704370,
+              "T_shot": 927501895.0,
+              "T_shot_fraction": [
+                "927501895",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 235644615.0,
+                "loop1": 691810560.0,
+                "loop1_final": 44160.0,
+                "final_phase": 2560.0
+              }
+            }
+          ],
+          "T_fact": 8433897132.353363,
+          "QT": 12102642384927.076,
+          "T_fact_seed_sd": 9922337.184983734
+        },
+        "constructive_phase": {
+          "Q": 1435,
+          "T_shot": 926498179.5,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1701463,
+              "T_shot": 925339268.5,
+              "T_shot_fraction": [
+                "1850678537",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 233481028.5,
+                "loop1": 691810560.0,
+                "loop1_final": 44160.0,
+                "final_phase": 3520.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1703810,
+              "T_shot": 926652415.0,
+              "T_shot_fraction": [
+                "926652415",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 234794175.0,
+                "loop1": 691810560.0,
+                "loop1_final": 44160.0,
+                "final_phase": 3520.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1705330,
+              "T_shot": 927502855.0,
+              "T_shot_fraction": [
+                "927502855",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 235644615.0,
+                "loop1": 691810560.0,
+                "loop1_final": 44160.0,
+                "final_phase": 3520.0
+              }
+            }
+          ],
+          "T_fact": 8433905871.22605,
+          "QT": 12102654925209.383,
+          "T_fact_seed_sd": 9922337.184983734
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S8_L21_W8_rsa2048_b28.json.gz",
+        "sha256": "9dc2ec862f7487f4eb77404342330f8a1ab467544c4c86166805002ff7bac099"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S8_L21_W8_rsa2048_b28.json.gz",
+        "sha256": "9dc2ec862f7487f4eb77404342330f8a1ab467544c4c86166805002ff7bac099"
+      },
+      "s": 8,
+      "spec": null
+    },
+    {
+      "point": "C_S8_L21_W7",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1435,
+          "T_shot": 757529329.5833334,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1209865,
+              "T_shot": 755898826.25,
+              "T_shot_fraction": [
+                "3023595305",
+                "4"
+              ],
+              "stage_projection": {
+                "prime_kernel": 267054037.25,
+                "loop1": 488815509.0,
+                "loop1_final": 27267.0,
+                "final_phase": 2013.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1213406,
+              "T_shot": 758165951.5,
+              "T_shot_fraction": [
+                "1516331903",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 269321162.5,
+                "loop1": 488815509.0,
+                "loop1_final": 27267.0,
+                "final_phase": 2013.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1213964,
+              "T_shot": 758523211.0,
+              "T_shot_fraction": [
+                "758523211",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 269678422.0,
+                "loop1": 488815509.0,
+                "loop1_final": 27267.0,
+                "final_phase": 2013.0
+              }
+            }
+          ],
+          "T_fact": 6899310342.425275,
+          "QT": 9900510341380.27,
+          "T_fact_seed_sd": 12963016.036895012
+        },
+        "constructive_phase": {
+          "Q": 1435,
+          "T_shot": 757530061.5833334,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1210597,
+              "T_shot": 755899558.25,
+              "T_shot_fraction": [
+                "3023598233",
+                "4"
+              ],
+              "stage_projection": {
+                "prime_kernel": 267054037.25,
+                "loop1": 488815509.0,
+                "loop1_final": 27267.0,
+                "final_phase": 2745.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1214138,
+              "T_shot": 758166683.5,
+              "T_shot_fraction": [
+                "1516333367",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 269321162.5,
+                "loop1": 488815509.0,
+                "loop1_final": 27267.0,
+                "final_phase": 2745.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1214696,
+              "T_shot": 758523943.0,
+              "T_shot_fraction": [
+                "758523943",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 269678422.0,
+                "loop1": 488815509.0,
+                "loop1_final": 27267.0,
+                "final_phase": 2745.0
+              }
+            }
+          ],
+          "T_fact": 6899317009.2234745,
+          "QT": 9900519908235.686,
+          "T_fact_seed_sd": 12963016.036895012
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S8_L21_W7_rsa2048_b28.json.gz",
+        "sha256": "80a644a74070c26bfc70e44c8f984929f382025965fba143e30b371717c3b81c"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S8_L21_W7_rsa2048_b28.json.gz",
+        "sha256": "80a644a74070c26bfc70e44c8f984929f382025965fba143e30b371717c3b81c"
+      },
+      "s": 8,
+      "spec": null
+    },
+    {
+      "point": "C_S8_L21_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1435,
+          "T_shot": 700892232.4285713,
+          "measurement_seeds": [
+            2026111517,
+            2026112517,
+            2026113517
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111517,
+              "T_executed": 955215,
+              "T_shot": 700676438.1428572,
+              "T_shot_fraction": [
+                "4904735067",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 314540402.14285713,
+                "loop1": 386115920.0,
+                "loop1_final": 18404.0,
+                "final_phase": 1712.0
+              }
+            },
+            {
+              "seed": 2026112517,
+              "T_executed": 954135,
+              "T_shot": 699867209.5714285,
+              "T_shot_fraction": [
+                "4899070467",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 313731173.5714286,
+                "loop1": 386115920.0,
+                "loop1_final": 18404.0,
+                "final_phase": 1712.0
+              }
+            },
+            {
+              "seed": 2026113517,
+              "T_executed": 957159,
+              "T_shot": 702133049.5714285,
+              "T_shot_fraction": [
+                "4914931347",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 315997013.5714286,
+                "loop1": 386115920.0,
+                "loop1_final": 18404.0,
+                "final_phase": 1712.0
+              }
+            }
+          ],
+          "T_fact": 6387890835.080912,
+          "QT": 9166623348341.107,
+          "T_fact_seed_sd": 10464904.963955399
+        },
+        "constructive_phase": {
+          "Q": 1435,
+          "T_shot": 700892232.4285713,
+          "measurement_seeds": [
+            2026111517,
+            2026112517,
+            2026113517
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111517,
+              "T_executed": 955215,
+              "T_shot": 700676438.1428572,
+              "T_shot_fraction": [
+                "4904735067",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 314540402.14285713,
+                "loop1": 386115920.0,
+                "loop1_final": 18404.0,
+                "final_phase": 1712.0
+              }
+            },
+            {
+              "seed": 2026112517,
+              "T_executed": 954135,
+              "T_shot": 699867209.5714285,
+              "T_shot_fraction": [
+                "4899070467",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 313731173.5714286,
+                "loop1": 386115920.0,
+                "loop1_final": 18404.0,
+                "final_phase": 1712.0
+              }
+            },
+            {
+              "seed": 2026113517,
+              "T_executed": 957159,
+              "T_shot": 702133049.5714285,
+              "T_shot_fraction": [
+                "4914931347",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 315997013.5714286,
+                "loop1": 386115920.0,
+                "loop1_final": 18404.0,
+                "final_phase": 1712.0
+              }
+            }
+          ],
+          "T_fact": 6387890835.080912,
+          "QT": 9166623348341.107,
+          "T_fact_seed_sd": 10464904.963955399
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S8_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "e8ed6660e94482be3f2a495666eed2cf4a2a5d671d666d07c30210ebeb442823"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S8_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "e8ed6660e94482be3f2a495666eed2cf4a2a5d671d666d07c30210ebeb442823"
+      },
+      "s": 8,
+      "spec": null
+    },
+    {
+      "point": "C_S8_L20_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1433,
+          "T_shot": 727130286.0,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 938682,
+              "T_shot": 727693662.0,
+              "T_shot_fraction": [
+                "727693662",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 324292320.0,
+                "loop1": 403381440.0,
+                "loop1_final": 18190.0,
+                "final_phase": 1712.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 937886,
+              "T_shot": 727063230.0,
+              "T_shot_fraction": [
+                "727063230",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 323661888.0,
+                "loop1": 403381440.0,
+                "loop1_final": 18190.0,
+                "final_phase": 1712.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 937344,
+              "T_shot": 726633966.0,
+              "T_shot_fraction": [
+                "726633966",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 323232624.0,
+                "loop1": 403381440.0,
+                "loop1_final": 18190.0,
+                "final_phase": 1712.0
+              }
+            }
+          ],
+          "T_fact": 6622167655.467652,
+          "QT": 9489566250285.146,
+          "T_fact_seed_sd": 4854362.215563541
+        },
+        "constructive_phase": {
+          "Q": 1433,
+          "T_shot": 727130286.0,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 938682,
+              "T_shot": 727693662.0,
+              "T_shot_fraction": [
+                "727693662",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 324292320.0,
+                "loop1": 403381440.0,
+                "loop1_final": 18190.0,
+                "final_phase": 1712.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 937886,
+              "T_shot": 727063230.0,
+              "T_shot_fraction": [
+                "727063230",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 323661888.0,
+                "loop1": 403381440.0,
+                "loop1_final": 18190.0,
+                "final_phase": 1712.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 937344,
+              "T_shot": 726633966.0,
+              "T_shot_fraction": [
+                "726633966",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 323232624.0,
+                "loop1": 403381440.0,
+                "loop1_final": 18190.0,
+                "final_phase": 1712.0
+              }
+            }
+          ],
+          "T_fact": 6622167655.467652,
+          "QT": 9489566250285.146,
+          "T_fact_seed_sd": 4854362.215563541
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S8_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "fb0140b3571b022f60817ff6cecdd63e09d27342f83a2eec8e9d92e76d0905eb"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S8_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "fb0140b3571b022f60817ff6cecdd63e09d27342f83a2eec8e9d92e76d0905eb"
+      },
+      "s": 8,
+      "spec": null
+    },
+    {
+      "point": "C_S7_L21_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1473,
+          "T_shot": 731349996.9285713,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 969838,
+              "T_shot": 731245223.5,
+              "T_shot_fraction": [
+                "1462490447",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 323101223.5,
+                "loop1": 408123320.0,
+                "loop1_final": 18920.0,
+                "final_phase": 1760.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 970014,
+              "T_shot": 731380812.6428572,
+              "T_shot_fraction": [
+                "10239331377",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 323236812.64285713,
+                "loop1": 408123320.0,
+                "loop1_final": 18920.0,
+                "final_phase": 1760.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 970070,
+              "T_shot": 731423954.6428572,
+              "T_shot_fraction": [
+                "10239935365",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 323279954.64285713,
+                "loop1": 408123320.0,
+                "loop1_final": 18920.0,
+                "final_phase": 1760.0
+              }
+            }
+          ],
+          "T_fact": 5925664790.146943,
+          "QT": 8728504235886.447,
+          "T_fact_seed_sd": 755669.3227641095
+        },
+        "constructive_phase": {
+          "Q": 1473,
+          "T_shot": 731349996.9285713,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 969838,
+              "T_shot": 731245223.5,
+              "T_shot_fraction": [
+                "1462490447",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 323101223.5,
+                "loop1": 408123320.0,
+                "loop1_final": 18920.0,
+                "final_phase": 1760.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 970014,
+              "T_shot": 731380812.6428572,
+              "T_shot_fraction": [
+                "10239331377",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 323236812.64285713,
+                "loop1": 408123320.0,
+                "loop1_final": 18920.0,
+                "final_phase": 1760.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 970070,
+              "T_shot": 731423954.6428572,
+              "T_shot_fraction": [
+                "10239935365",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 323279954.64285713,
+                "loop1": 408123320.0,
+                "loop1_final": 18920.0,
+                "final_phase": 1760.0
+              }
+            }
+          ],
+          "T_fact": 5925664790.146943,
+          "QT": 8728504235886.447,
+          "T_fact_seed_sd": 755669.3227641095
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S7_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "994f0f1eeef3711cfd5bd5f91d9cd714495fc16d4c550b2deda81e0fd2f4c3ae"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S7_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "994f0f1eeef3711cfd5bd5f91d9cd714495fc16d4c550b2deda81e0fd2f4c3ae"
+      },
+      "s": 7,
+      "spec": null
+    },
+    {
+      "point": "C_S7_L20_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1471,
+          "T_shot": 758500912.4761906,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 949004,
+              "T_shot": 756352710.2857143,
+              "T_shot_fraction": [
+                "5294468972",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 329841350.28571427,
+                "loop1": 426490900.0,
+                "loop1_final": 18700.0,
+                "final_phase": 1760.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 951932,
+              "T_shot": 758737670.8571428,
+              "T_shot_fraction": [
+                "5311163696",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 332226310.85714287,
+                "loop1": 426490900.0,
+                "loop1_final": 18700.0,
+                "final_phase": 1760.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 953988,
+              "T_shot": 760412356.2857143,
+              "T_shot_fraction": [
+                "5322886494",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 333900996.28571427,
+                "loop1": 426490900.0,
+                "loop1_final": 18700.0,
+                "final_phase": 1760.0
+              }
+            }
+          ],
+          "T_fact": 6141028484.942182,
+          "QT": 9033452901349.95,
+          "T_fact_seed_sd": 16517626.465457344
+        },
+        "constructive_phase": {
+          "Q": 1471,
+          "T_shot": 758500912.4761904,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 949004,
+              "T_shot": 756352710.2857143,
+              "T_shot_fraction": [
+                "5294468972",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 329841350.28571427,
+                "loop1": 426490900.0,
+                "loop1_final": 18700.0,
+                "final_phase": 1760.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 951932,
+              "T_shot": 758737670.8571428,
+              "T_shot_fraction": [
+                "5311163696",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 332226310.85714287,
+                "loop1": 426490900.0,
+                "loop1_final": 18700.0,
+                "final_phase": 1760.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 953988,
+              "T_shot": 760412356.2857143,
+              "T_shot_fraction": [
+                "5322886494",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 333900996.28571427,
+                "loop1": 426490900.0,
+                "loop1_final": 18700.0,
+                "final_phase": 1760.0
+              }
+            }
+          ],
+          "T_fact": 6141028484.942181,
+          "QT": 9033452901349.947,
+          "T_fact_seed_sd": 16517626.465457344
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S7_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "5ca74930fe892bae5614c1304b4979ce2c432df68cd7f2b9b8385d4bd788c425"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S7_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "5ca74930fe892bae5614c1304b4979ce2c432df68cd7f2b9b8385d4bd788c425"
+      },
+      "s": 7,
+      "spec": null
+    },
+    {
+      "point": "C_S6_L21_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1521,
+          "T_shot": 773577078.1904761,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 991955,
+              "T_shot": 775053370.5714285,
+              "T_shot_fraction": [
+                "5425373594",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 336597058.5714286,
+                "loop1": 438434880.0,
+                "loop1_final": 19608.0,
+                "final_phase": 1824.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 988721,
+              "T_shot": 772470790.5714285,
+              "T_shot_fraction": [
+                "5407295534",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 334014478.5714286,
+                "loop1": 438434880.0,
+                "loop1_final": 19608.0,
+                "final_phase": 1824.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 989643,
+              "T_shot": 773207073.4285715,
+              "T_shot_fraction": [
+                "5412449514",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 334750761.4285714,
+                "loop1": 438434880.0,
+                "loop1_final": 19608.0,
+                "final_phase": 1824.0
+              }
+            }
+          ],
+          "T_fact": 5485308263.103743,
+          "QT": 8343153868180.793,
+          "T_fact_seed_sd": 9434030.333252525
+        },
+        "constructive_phase": {
+          "Q": 1521,
+          "T_shot": 773577078.1904761,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 991955,
+              "T_shot": 775053370.5714285,
+              "T_shot_fraction": [
+                "5425373594",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 336597058.5714286,
+                "loop1": 438434880.0,
+                "loop1_final": 19608.0,
+                "final_phase": 1824.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 988721,
+              "T_shot": 772470790.5714285,
+              "T_shot_fraction": [
+                "5407295534",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 334014478.5714286,
+                "loop1": 438434880.0,
+                "loop1_final": 19608.0,
+                "final_phase": 1824.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 989643,
+              "T_shot": 773207073.4285715,
+              "T_shot_fraction": [
+                "5412449514",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 334750761.4285714,
+                "loop1": 438434880.0,
+                "loop1_final": 19608.0,
+                "final_phase": 1824.0
+              }
+            }
+          ],
+          "T_fact": 5485308263.103743,
+          "QT": 8343153868180.793,
+          "T_fact_seed_sd": 9434030.333252525
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S6_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "308b9803d35f3c56d8ae6fe552eabb5d4356c0c6fe155b20ebeb72e1d9470471"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S6_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "308b9803d35f3c56d8ae6fe552eabb5d4356c0c6fe155b20ebeb72e1d9470471"
+      },
+      "s": 6,
+      "spec": null
+    },
+    {
+      "point": "C_S6_L20_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1519,
+          "T_shot": 803175412.7619047,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 972502,
+              "T_shot": 803460314.8571428,
+              "T_shot_fraction": [
+                "5624222204",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 345140870.85714287,
+                "loop1": 458298240.0,
+                "loop1_final": 19380.0,
+                "final_phase": 1824.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 972334,
+              "T_shot": 803318426.8571428,
+              "T_shot_fraction": [
+                "5623228988",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 344998982.85714287,
+                "loop1": 458298240.0,
+                "loop1_final": 19380.0,
+                "final_phase": 1824.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 971658,
+              "T_shot": 802747496.5714285,
+              "T_shot_fraction": [
+                "5619232476",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 344428052.5714286,
+                "loop1": 458298240.0,
+                "loop1_final": 19380.0,
+                "final_phase": 1824.0
+              }
+            }
+          ],
+          "T_fact": 5690750742.106848,
+          "QT": 8644250377260.302,
+          "T_fact_seed_sd": 2673401.624966902
+        },
+        "constructive_phase": {
+          "Q": 1519,
+          "T_shot": 803175412.7619047,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 972502,
+              "T_shot": 803460314.8571428,
+              "T_shot_fraction": [
+                "5624222204",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 345140870.85714287,
+                "loop1": 458298240.0,
+                "loop1_final": 19380.0,
+                "final_phase": 1824.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 972334,
+              "T_shot": 803318426.8571428,
+              "T_shot_fraction": [
+                "5623228988",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 344998982.85714287,
+                "loop1": 458298240.0,
+                "loop1_final": 19380.0,
+                "final_phase": 1824.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 971658,
+              "T_shot": 802747496.5714285,
+              "T_shot_fraction": [
+                "5619232476",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 344428052.5714286,
+                "loop1": 458298240.0,
+                "loop1_final": 19380.0,
+                "final_phase": 1824.0
+              }
+            }
+          ],
+          "T_fact": 5690750742.106848,
+          "QT": 8644250377260.302,
+          "T_fact_seed_sd": 2673401.624966902
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S6_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "f3dc2e848e2c36754d6d546274a4af07dd15f38a6f6b22aba351d496344d62ce"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S6_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "f3dc2e848e2c36754d6d546274a4af07dd15f38a6f6b22aba351d496344d62ce"
+      },
+      "s": 6,
+      "spec": null
+    },
+    {
+      "point": "C_S5_L21_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1589,
+          "T_shot": 833032050.5714287,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1016704,
+              "T_shot": 832554757.0,
+              "T_shot_fraction": [
+                "832554757",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 350623207.0,
+                "loop1": 481909084.0,
+                "loop1_final": 20554.0,
+                "final_phase": 1912.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1016818,
+              "T_shot": 832650215.7142857,
+              "T_shot_fraction": [
+                "5828551510",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 350718665.71428573,
+                "loop1": 481909084.0,
+                "loop1_final": 20554.0,
+                "final_phase": 1912.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1018300,
+              "T_shot": 833891179.0,
+              "T_shot_fraction": [
+                "833891179",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 351959629.0,
+                "loop1": 481909084.0,
+                "loop1_final": 20554.0,
+                "final_phase": 1912.0
+              }
+            }
+          ],
+          "T_fact": 5064297025.146009,
+          "QT": 8047167972957.009,
+          "T_fact_seed_sd": 4532501.50108459
+        },
+        "constructive_phase": {
+          "Q": 1589,
+          "T_shot": 833032050.5714287,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1016704,
+              "T_shot": 832554757.0,
+              "T_shot_fraction": [
+                "832554757",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 350623207.0,
+                "loop1": 481909084.0,
+                "loop1_final": 20554.0,
+                "final_phase": 1912.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1016818,
+              "T_shot": 832650215.7142857,
+              "T_shot_fraction": [
+                "5828551510",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 350718665.71428573,
+                "loop1": 481909084.0,
+                "loop1_final": 20554.0,
+                "final_phase": 1912.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1018300,
+              "T_shot": 833891179.0,
+              "T_shot_fraction": [
+                "833891179",
+                "1"
+              ],
+              "stage_projection": {
+                "prime_kernel": 351959629.0,
+                "loop1": 481909084.0,
+                "loop1_final": 20554.0,
+                "final_phase": 1912.0
+              }
+            }
+          ],
+          "T_fact": 5064297025.146009,
+          "QT": 8047167972957.009,
+          "T_fact_seed_sd": 4532501.50108459
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S5_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "9e8b9f96fd37f13a3d3ddd732ee768b7975b932a0f1bd8a424f5cead676f7619"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S5_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "9e8b9f96fd37f13a3d3ddd732ee768b7975b932a0f1bd8a424f5cead676f7619"
+      },
+      "s": 5,
+      "spec": null
+    },
+    {
+      "point": "C_S5_L20_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1587,
+          "T_shot": 863758259.4285713,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 995673,
+              "T_shot": 862460617.0714285,
+              "T_shot_fraction": [
+                "12074448639",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 358484185.0714286,
+                "loop1": 503954205.0,
+                "loop1_final": 20315.0,
+                "final_phase": 1912.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 998471,
+              "T_shot": 864939545.1428572,
+              "T_shot_fraction": [
+                "6054576816",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 360963113.14285713,
+                "loop1": 503954205.0,
+                "loop1_final": 20315.0,
+                "final_phase": 1912.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 997269,
+              "T_shot": 863874616.0714285,
+              "T_shot_fraction": [
+                "12094244625",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 359898184.0714286,
+                "loop1": 503954205.0,
+                "loop1_final": 20315.0,
+                "final_phase": 1912.0
+              }
+            }
+          ],
+          "T_fact": 5246814307.800285,
+          "QT": 8326694306479.053,
+          "T_fact_seed_sd": 7553842.869721763
+        },
+        "constructive_phase": {
+          "Q": 1587,
+          "T_shot": 863758259.4285713,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 995673,
+              "T_shot": 862460617.0714285,
+              "T_shot_fraction": [
+                "12074448639",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 358484185.0714286,
+                "loop1": 503954205.0,
+                "loop1_final": 20315.0,
+                "final_phase": 1912.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 998471,
+              "T_shot": 864939545.1428572,
+              "T_shot_fraction": [
+                "6054576816",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 360963113.14285713,
+                "loop1": 503954205.0,
+                "loop1_final": 20315.0,
+                "final_phase": 1912.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 997269,
+              "T_shot": 863874616.0714285,
+              "T_shot_fraction": [
+                "12094244625",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 359898184.0714286,
+                "loop1": 503954205.0,
+                "loop1_final": 20315.0,
+                "final_phase": 1912.0
+              }
+            }
+          ],
+          "T_fact": 5246814307.800285,
+          "QT": 8326694306479.053,
+          "T_fact_seed_sd": 7553842.869721763
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S5_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "862c1026b31c7d4925f34eeddc15a8d428fe5e0ac5c99ef56b51d4a24c23b4bc"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S5_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "862c1026b31c7d4925f34eeddc15a8d428fe5e0ac5c99ef56b51d4a24c23b4bc"
+      },
+      "s": 5,
+      "spec": null
+    },
+    {
+      "point": "C_S4_L21_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1691,
+          "T_shot": 928419434.5357143,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1059183,
+              "T_shot": 928858523.8214285,
+              "T_shot_fraction": [
+                "26008038667",
+                "28"
+              ],
+              "stage_projection": {
+                "prime_kernel": 375682459.8214286,
+                "loop1": 553152000.0,
+                "loop1_final": 22016.0,
+                "final_phase": 2048.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1058602,
+              "T_shot": 928337180.0714285,
+              "T_shot_fraction": [
+                "12996720521",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 375161116.0714286,
+                "loop1": 553152000.0,
+                "loop1_final": 22016.0,
+                "final_phase": 2048.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1058296,
+              "T_shot": 928062599.7142857,
+              "T_shot_fraction": [
+                "6496438198",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 374886535.71428573,
+                "loop1": 553152000.0,
+                "loop1_final": 22016.0,
+                "final_phase": 2048.0
+              }
+            }
+          ],
+          "T_fact": 4705281457.153613,
+          "QT": 7956630944046.76,
+          "T_fact_seed_sd": 2048950.0931581284
+        },
+        "constructive_phase": {
+          "Q": 1691,
+          "T_shot": 928419434.5357143,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1059183,
+              "T_shot": 928858523.8214285,
+              "T_shot_fraction": [
+                "26008038667",
+                "28"
+              ],
+              "stage_projection": {
+                "prime_kernel": 375682459.8214286,
+                "loop1": 553152000.0,
+                "loop1_final": 22016.0,
+                "final_phase": 2048.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1058602,
+              "T_shot": 928337180.0714285,
+              "T_shot_fraction": [
+                "12996720521",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 375161116.0714286,
+                "loop1": 553152000.0,
+                "loop1_final": 22016.0,
+                "final_phase": 2048.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1058296,
+              "T_shot": 928062599.7142857,
+              "T_shot_fraction": [
+                "6496438198",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 374886535.71428573,
+                "loop1": 553152000.0,
+                "loop1_final": 22016.0,
+                "final_phase": 2048.0
+              }
+            }
+          ],
+          "T_fact": 4705281457.153613,
+          "QT": 7956630944046.76,
+          "T_fact_seed_sd": 2048950.0931581284
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S4_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "7530be5d99b6c5d7e416839dd4676b4908878c8734c0356a1fe02bd6ce44b6da"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S4_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "7530be5d99b6c5d7e416839dd4676b4908878c8734c0356a1fe02bd6ce44b6da"
+      },
+      "s": 4,
+      "spec": null
+    },
+    {
+      "point": "C_S4_L20_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1689,
+          "T_shot": 967369435.2857143,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1038086,
+              "T_shot": 963660356.4285715,
+              "T_shot_fraction": [
+                "6745622495",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 384777028.4285714,
+                "loop1": 578859520.0,
+                "loop1_final": 21760.0,
+                "final_phase": 2048.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1044228,
+              "T_shot": 969495695.1428572,
+              "T_shot_fraction": [
+                "6786469866",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 390612367.14285713,
+                "loop1": 578859520.0,
+                "loop1_final": 21760.0,
+                "final_phase": 2048.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1043656,
+              "T_shot": 968952254.2857143,
+              "T_shot_fraction": [
+                "6782665780",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 390068926.28571427,
+                "loop1": 578859520.0,
+                "loop1_final": 21760.0,
+                "final_phase": 2048.0
+              }
+            }
+          ],
+          "T_fact": 4898416888.387299,
+          "QT": 8273426124486.147,
+          "T_fact_seed_sd": 16323315.880157135
+        },
+        "constructive_phase": {
+          "Q": 1689,
+          "T_shot": 967369435.2857143,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1038086,
+              "T_shot": 963660356.4285715,
+              "T_shot_fraction": [
+                "6745622495",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 384777028.4285714,
+                "loop1": 578859520.0,
+                "loop1_final": 21760.0,
+                "final_phase": 2048.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1044228,
+              "T_shot": 969495695.1428572,
+              "T_shot_fraction": [
+                "6786469866",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 390612367.14285713,
+                "loop1": 578859520.0,
+                "loop1_final": 21760.0,
+                "final_phase": 2048.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1043656,
+              "T_shot": 968952254.2857143,
+              "T_shot_fraction": [
+                "6782665780",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 390068926.28571427,
+                "loop1": 578859520.0,
+                "loop1_final": 21760.0,
+                "final_phase": 2048.0
+              }
+            }
+          ],
+          "T_fact": 4898416888.387299,
+          "QT": 8273426124486.147,
+          "T_fact_seed_sd": 16323315.880157135
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S4_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "b99bda47067c9e1dacef0f04d634b01fccc20a1eb513e321555bc0e43cf7de70"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S4_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "b99bda47067c9e1dacef0f04d634b01fccc20a1eb513e321555bc0e43cf7de70"
+      },
+      "s": 4,
+      "spec": null
+    },
+    {
+      "point": "C_S3_L21_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1863,
+          "T_shot": 1105948907.0,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1131620,
+              "T_shot": 1104580582.5,
+              "T_shot_fraction": [
+                "2209161165",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 418445362.5,
+                "loop1": 686108430.0,
+                "loop1_final": 24510.0,
+                "final_phase": 2280.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1132991,
+              "T_shot": 1105951239.75,
+              "T_shot_fraction": [
+                "4423804959",
+                "4"
+              ],
+              "stage_projection": {
+                "prime_kernel": 419816019.75,
+                "loop1": 686108430.0,
+                "loop1_final": 24510.0,
+                "final_phase": 2280.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1134355,
+              "T_shot": 1107314898.75,
+              "T_shot_fraction": [
+                "4429259595",
+                "4"
+              ],
+              "stage_projection": {
+                "prime_kernel": 421179678.75,
+                "loop1": 686108430.0,
+                "loop1_final": 24510.0,
+                "final_phase": 2280.0
+              }
+            }
+          ],
+          "T_fact": 4486924060.938895,
+          "QT": 8359139525529.162,
+          "T_fact_seed_sd": 5546677.016096771
+        },
+        "constructive_phase": {
+          "Q": 1863,
+          "T_shot": 1105948907.0,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1131620,
+              "T_shot": 1104580582.5,
+              "T_shot_fraction": [
+                "2209161165",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 418445362.5,
+                "loop1": 686108430.0,
+                "loop1_final": 24510.0,
+                "final_phase": 2280.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1132991,
+              "T_shot": 1105951239.75,
+              "T_shot_fraction": [
+                "4423804959",
+                "4"
+              ],
+              "stage_projection": {
+                "prime_kernel": 419816019.75,
+                "loop1": 686108430.0,
+                "loop1_final": 24510.0,
+                "final_phase": 2280.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1134355,
+              "T_shot": 1107314898.75,
+              "T_shot_fraction": [
+                "4429259595",
+                "4"
+              ],
+              "stage_projection": {
+                "prime_kernel": 421179678.75,
+                "loop1": 686108430.0,
+                "loop1_final": 24510.0,
+                "final_phase": 2280.0
+              }
+            }
+          ],
+          "T_fact": 4486924060.938895,
+          "QT": 8359139525529.162,
+          "T_fact_seed_sd": 5546677.016096771
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S3_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "139762aa24c2a9f0e7bfb394f4575efaca607ef895addc7fb67c37cb00b6d056"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S3_L21_W6_rsa2048_b28.json.gz",
+        "sha256": "139762aa24c2a9f0e7bfb394f4575efaca607ef895addc7fb67c37cb00b6d056"
+      },
+      "s": 3,
+      "spec": null
+    },
+    {
+      "point": "C_S3_L20_W6",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 1861,
+          "T_shot": 1150633562.4285715,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1112337,
+              "T_shot": 1150853306.142857,
+              "T_shot_fraction": [
+                "8055973143",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 431925701.14285713,
+                "loop1": 718901100.0,
+                "loop1_final": 24225.0,
+                "final_phase": 2280.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1112493,
+              "T_shot": 1151018643.857143,
+              "T_shot_fraction": [
+                "8057130507",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 432091038.85714287,
+                "loop1": 718901100.0,
+                "loop1_final": 24225.0,
+                "final_phase": 2280.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1111559,
+              "T_shot": 1150028737.2857144,
+              "T_shot_fraction": [
+                "8050201161",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 431101132.28571427,
+                "loop1": 718901100.0,
+                "loop1_final": 24225.0,
+                "final_phase": 2280.0
+              }
+            }
+          ],
+          "T_fact": 4663717476.815075,
+          "QT": 8679178224352.8545,
+          "T_fact_seed_sd": 2149306.7283072057
+        },
+        "constructive_phase": {
+          "Q": 1861,
+          "T_shot": 1150633562.4285715,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1112337,
+              "T_shot": 1150853306.142857,
+              "T_shot_fraction": [
+                "8055973143",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 431925701.14285713,
+                "loop1": 718901100.0,
+                "loop1_final": 24225.0,
+                "final_phase": 2280.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1112493,
+              "T_shot": 1151018643.857143,
+              "T_shot_fraction": [
+                "8057130507",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 432091038.85714287,
+                "loop1": 718901100.0,
+                "loop1_final": 24225.0,
+                "final_phase": 2280.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1111559,
+              "T_shot": 1150028737.2857144,
+              "T_shot_fraction": [
+                "8050201161",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 431101132.28571427,
+                "loop1": 718901100.0,
+                "loop1_final": 24225.0,
+                "final_phase": 2280.0
+              }
+            }
+          ],
+          "T_fact": 4663717476.815075,
+          "QT": 8679178224352.8545,
+          "T_fact_seed_sd": 2149306.7283072057
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S3_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "8c1dacba4586631e3db4e4b7256600d36e30bcd903c2dec00d906cebc48c9796"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S3_L20_W6_rsa2048_b28.json.gz",
+        "sha256": "8c1dacba4586631e3db4e4b7256600d36e30bcd903c2dec00d906cebc48c9796"
+      },
+      "s": 3,
+      "spec": null
+    },
+    {
+      "point": "C_S2_L21_W6_PREP64",
+      "dual_meter": {
+        "original_common_meter": {
+          "Q": 2204,
+          "T_shot": 1510396593.5714285,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1288164,
+              "T_shot": 1508859337.5,
+              "T_shot_fraction": [
+                "3017718675",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 507753517.5,
+                "loop1": 1001073330.0,
+                "loop1_final": 29754.0,
+                "final_phase": 2736.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1290150,
+              "T_shot": 1511245729.2857144,
+              "T_shot_fraction": [
+                "10578720105",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 510139909.28571427,
+                "loop1": 1001073330.0,
+                "loop1_final": 29754.0,
+                "final_phase": 2736.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1290016,
+              "T_shot": 1511084713.9285715,
+              "T_shot_fraction": [
+                "21155185995",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 509978893.9285714,
+                "loop1": 1001073330.0,
+                "loop1_final": 29754.0,
+                "final_phase": 2736.0
+              }
+            }
+          ],
+          "T_fact": 4601747190.15007,
+          "QT": 10142250807090.754,
+          "T_fact_seed_sd": 4063509.3050552844
+        },
+        "constructive_phase": {
+          "Q": 2204,
+          "T_shot": 1510396593.5714285,
+          "measurement_seeds": [
+            2026111701,
+            2026112701,
+            2026113701
+          ],
+          "per_seed": [
+            {
+              "seed": 2026111701,
+              "T_executed": 1288164,
+              "T_shot": 1508859337.5,
+              "T_shot_fraction": [
+                "3017718675",
+                "2"
+              ],
+              "stage_projection": {
+                "prime_kernel": 507753517.5,
+                "loop1": 1001073330.0,
+                "loop1_final": 29754.0,
+                "final_phase": 2736.0
+              }
+            },
+            {
+              "seed": 2026112701,
+              "T_executed": 1290150,
+              "T_shot": 1511245729.2857144,
+              "T_shot_fraction": [
+                "10578720105",
+                "7"
+              ],
+              "stage_projection": {
+                "prime_kernel": 510139909.28571427,
+                "loop1": 1001073330.0,
+                "loop1_final": 29754.0,
+                "final_phase": 2736.0
+              }
+            },
+            {
+              "seed": 2026113701,
+              "T_executed": 1290016,
+              "T_shot": 1511084713.9285715,
+              "T_shot_fraction": [
+                "21155185995",
+                "14"
+              ],
+              "stage_projection": {
+                "prime_kernel": 509978893.9285714,
+                "loop1": 1001073330.0,
+                "loop1_final": 29754.0,
+                "final_phase": 2736.0
+              }
+            }
+          ],
+          "T_fact": 4601747190.15007,
+          "QT": 10142250807090.754,
+          "T_fact_seed_sd": 4063509.3050552844
+        }
+      },
+      "source_record": {
+        "path": "receipts/comparison/C_S2_L21_W6_PREP64_rsa2048_b28.json.gz",
+        "sha256": "906a2cbd87e89e85ee9d047de57ebf56780a7e0f74382d26710583ed384bf2c0"
+      },
+      "sealed_record": {
+        "path": "receipts/comparison/C_S2_L21_W6_PREP64_rsa2048_b28.json.gz",
+        "sha256": "906a2cbd87e89e85ee9d047de57ebf56780a7e0f74382d26710583ed384bf2c0"
+      },
+      "s": 2,
+      "spec": null
+    }
+  ]
+}
